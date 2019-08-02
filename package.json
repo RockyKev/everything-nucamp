@@ -1,0 +1,19 @@
+{
+  "name": "everything-nucamp",
+  "version": "1.0.0",
+  "description": "everything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyKev/everything-nucamp.git"
+  },
+  "author": "rocky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockyKev/everything-nucamp/issues"
+  },
+  "homepage": "https://github.com/RockyKev/everything-nucamp#readme"
+}

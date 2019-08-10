@@ -1,0 +1,21 @@
+#about-title {
+    background: #9575CD; 
+    color: white;
+  
+  }
+  
+  #about-footer {
+    background: thistle; 
+  
+  }
+  
+  no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }

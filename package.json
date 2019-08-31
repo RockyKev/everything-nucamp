@@ -4,8 +4,10 @@
   "description": "everything",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RockyKev/everything-nucamp.git"
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RockyKev/everything-nucamp/issues"
   },
-  "homepage": "https://github.com/RockyKev/everything-nucamp#readme"
+  "homepage": "https://github.com/RockyKev/everything-nucamp#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
 }
